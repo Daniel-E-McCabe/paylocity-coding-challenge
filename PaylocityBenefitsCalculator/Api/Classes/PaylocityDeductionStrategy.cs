@@ -1,7 +1,7 @@
 using Api.Dtos.Employee;
 using Api.Dtos.Paycheck;
 
-// This is a strategy to calculate pay and deductions accoding to the paylocity
+// This is a strategy to calculate pay and deductions according to the paylocity
 // coding challenge requirements. Doing this adds flexabiity and extensibility to 
 // the implementation. With more time you can add a feature to be able to use
 // depdnency injection to inject concrete classes and strategies into the application,
