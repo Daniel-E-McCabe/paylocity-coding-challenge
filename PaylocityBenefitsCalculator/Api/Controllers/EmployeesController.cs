@@ -8,6 +8,9 @@ using Swashbuckle.AspNetCore.Annotations;
 
 namespace Api.Controllers;
 
+
+// I added a REST endpoint to add an employee so that I could enforce the requirements about the number of spouses
+// and domestic partners an employee could have
 [ApiController]
 [Route("api/v1/[controller]")]
 public class EmployeesController : ControllerBase

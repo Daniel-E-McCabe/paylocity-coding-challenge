@@ -16,25 +16,331 @@ public class PaycheckIntegrationTests : IntegrationTest
     public async Task WhenThereAreNoDependents()
     {
         var response = await HttpClient.GetAsync("/api/v1/paycheck/1");
-        var paycheck = new GetPaycheckDto
+        var paycheck = new List<GetPaycheckDto>
         {
-            BaseAmount = 2900.81m,
-            Deductions = 461,
-            NetAmount = 2439.81m
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2900,
+                Deductions = 461,
+                NetAmount = 2439
+            },
+            new()
+            {
+                BaseAmount = 2920.99m,
+                Deductions = 475,
+                NetAmount = 2445.99m
+            }
         };
 
-        await response.ShouldReturn(HttpStatusCode.OK, paycheck);
-    }
+            await response.ShouldReturn(HttpStatusCode.OK, paycheck);
+        }
 
     [Fact]
     public async Task WhenThereAreMultipleDependents()
     {
         var response = await HttpClient.GetAsync("/api/v1/paycheck/2");
-        var paycheck = new GetPaycheckDto
+        var paycheck = new List<GetPaycheckDto>
         {
-            BaseAmount = 3552.51m,
-            Deductions = 1362.05m,
-            NetAmount = 2190.46m
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3552,
+                Deductions = 1362,
+                NetAmount = 2190
+            },
+            new()
+            {
+                BaseAmount = 3565.22m,
+                Deductions = 1397.31m,
+                NetAmount = 2167.91m
+            }
         };
 
         await response.ShouldReturn(HttpStatusCode.OK, paycheck);
@@ -45,13 +351,166 @@ public class PaycheckIntegrationTests : IntegrationTest
     public async Task WhenThereIsOneDependentOver50()
     {
         var response = await HttpClient.GetAsync("/api/v1/paycheck/3");
-        var paycheck = new GetPaycheckDto
+        var paycheck = new List<GetPaycheckDto>
         {
-            BaseAmount = 5508.12m,
-            Deductions = 939.16m,
-            NetAmount = 4568.96m
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5508,
+                Deductions = 939,
+                NetAmount = 4569
+            },
+            new()
+            {
+                BaseAmount = 5511.12m,
+                Deductions = 989.23m,
+                NetAmount = 4521.89m
+            }
         };
-       
+
         await response.ShouldReturn(HttpStatusCode.OK, paycheck);
     }
 
