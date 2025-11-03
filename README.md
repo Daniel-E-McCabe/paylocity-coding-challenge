@@ -1,4 +1,4 @@
-# paylocity-coding-challenge
+# Paylocity Coding Challenge
 Thank you for considering me. I used the strategy design pattern to implement the business logic to calculate the paychecks. This makes the code
 more flexable and extensible. It also allows for further discussion about using dependency injection to create other strategies as the business sees fit. 
 You could even add a feature to inject the concrete implementations at runtime to add even more flexability (I did this at a previous company)
