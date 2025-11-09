@@ -24,11 +24,9 @@ public class PaylocityDeductionStrategy : IDeductionsStrategy
 
         // employees have a base cost of $1,000 per month (for benefits)
         decimal yearlyBenefitCost = (1000 * 12);
-        decimal benefitCost = yearlyBenefitCost / 26;
 
         // each dependent represents an additional $600 cost per month (for benefits)
         yearlyBenefitCost += numberOfDepenents * 600 * 12;
-        benefitCost += (numberOfDepenents * 600 * 12) / 26;
 
         // employees that make more than $80,000 per year will incur an additional 2% of their yearly salary in
         // benefits costs
@@ -36,7 +34,6 @@ public class PaylocityDeductionStrategy : IDeductionsStrategy
         if (employee.Salary > 80000)
         {
             yearlyBenefitCost += .02M * employee.Salary;
-            benefitCost += (.02M * employee.Salary) / 26;
         }
 
         // dependents that are over 50 years old will incur an additional $200 per month
@@ -53,13 +50,12 @@ public class PaylocityDeductionStrategy : IDeductionsStrategy
             if (age > 50)
             {
                 yearlyBenefitCost += (200 * 12);
-                benefitCost += (200 * 12) / 26;
             }
 
         }
 
-        decimal baseAmount = Math.Round(basePay, MidpointRounding.ToNegativeInfinity);
-        decimal deductions = Math.Round(benefitCost, MidpointRounding.ToNegativeInfinity);
+        decimal baseAmount = Math.Round(basePay, 2, MidpointRounding.ToNegativeInfinity);
+        decimal deductions = Math.Round(yearlyBenefitCost / 26, 2, MidpointRounding.ToNegativeInfinity);
 
         var paycheck = new GetPaycheckDto
         {

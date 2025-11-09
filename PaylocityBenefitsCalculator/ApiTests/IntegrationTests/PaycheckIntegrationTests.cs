@@ -20,159 +20,159 @@ public class PaycheckIntegrationTests : IntegrationTest
         {
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
+            },
+             new()
+            {
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
+                BaseAmount = 2900.80m,
+                Deductions = 461.53m,
+                NetAmount = 2439.27m
             },
             new()
             {
-                BaseAmount = 2900,
-                Deductions = 461,
-                NetAmount = 2439
-            },
-            new()
-            {
-                BaseAmount = 2920.99m,
-                Deductions = 475,
-                NetAmount = 2445.99m
+                BaseAmount = 2900.99m,
+                Deductions = 461.75m,
+                NetAmount = 2439.24m
             }
         };
 
@@ -187,159 +187,159 @@ public class PaycheckIntegrationTests : IntegrationTest
         {
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
+            },
+             new()
+            {
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
+                BaseAmount = 3552.50m,
+                Deductions = 1363.35m,
+                NetAmount = 2189.15m
             },
             new()
             {
-                BaseAmount = 3552,
-                Deductions = 1362,
-                NetAmount = 2190
-            },
-            new()
-            {
-                BaseAmount = 3565.22m,
-                Deductions = 1397.31m,
-                NetAmount = 2167.91m
+                BaseAmount = 3552.72m,
+                Deductions = 1363.56m,
+                NetAmount = 2189.16m
             }
         };
 
@@ -355,159 +355,159 @@ public class PaycheckIntegrationTests : IntegrationTest
         {
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5508,
-                Deductions = 939,
-                NetAmount = 4569
+                BaseAmount = 5508.12m,
+                Deductions = 940.93m,
+                NetAmount = 4567.19m
             },
             new()
             {
-                BaseAmount = 5511.12m,
-                Deductions = 989.23m,
-                NetAmount = 4521.89m
+                BaseAmount = 5508.12m,
+                Deductions = 940.98m,
+                NetAmount = 4567.14m
             }
         };
 
